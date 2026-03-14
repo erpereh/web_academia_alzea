@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p public/videos)",
+      "Bash(mv hero.mp4 public/videos/hero.mp4)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --import-alias --no-git --no-srcdir)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Perez\\Documents\\AA_Clientes\\web_academia_alzea\\.claude"
+    ]
+  }
+}

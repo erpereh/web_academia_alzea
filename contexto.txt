@@ -1,0 +1,23 @@
+PROYECTO: Web Corporativa Academia ALEZA
+OBJETIVO: Conversión de padres y familias en el área local.
+
+DATOS DEL NEGOCIO:
+- Nombre: Academia ALEZA
+- Ubicación: Calle Castrillo de Aza, 32, 28031, Madrid (Santa Eugenia / Villa de Vallecas).
+- Teléfonos: 913 318 375 | 639 070 419
+- Horario sugerido: Lunes a Viernes de 16:00 a 21:00.
+- Servicios principales: Apoyo escolar, Refuerzo académico, Escuela de idiomas.
+- Diferencial: Trato familiar, grupos reducidos, más de 30 años de experiencia en el barrio.
+
+IDENTIDAD VISUAL:
+- Color Principal: #1E3A8A (Azul - Confianza y Método)
+- Color Secundario: #F59E0B (Naranja - Energía y Motivación)
+- Acento (CTA): #10B981 (Verde - Acción y WhatsApp)
+- Fondo: #F8FAFC (Blanco roto - Claridad)
+- Tipografía: Montserrat (Titulares) y Open Sans (Cuerpo).
+
+TONO DE MARCA:
+- Profesional pero muy cercano. Debe sonar como un vecino experto en quien puedes confiar la educación de tus hijos.
+
+SEO LOCAL TARGET:
+- "Academia en Santa Eugenia", "Clases particulares Villa de Vallecas", "Refuerzo escolar La Gavia".
