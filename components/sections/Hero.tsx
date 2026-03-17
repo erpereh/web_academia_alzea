@@ -98,15 +98,14 @@ export function Hero() {
             <span className="inline-block bg-gradient-to-r from-sun-yellow via-drop-pink to-friendly-green bg-clip-text text-transparent">
               aprendizaje
             </span>
-            {' '}cobra
-            <br />
-            <span className="bg-gradient-to-r from-friendly-green to-sun-yellow bg-clip-text text-transparent">
-              vida
+            {' '}
+            <span className="whitespace-nowrap">
+              cobra{' '}
+              <span className="bg-gradient-to-r from-friendly-green to-sun-yellow bg-clip-text text-transparent">
+                vida
+              </span>
             </span>
           </h1>
-          <p className="text-lg sm:text-xl text-white/80 font-light max-w-xl mx-auto">
-            Refuerzo académico, clases particulares y escuela de idiomas con un toque familiar en Santa Eugenia
-          </p>
         </motion.div>
 
         {/* Buttons Container */}

@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sparkles } from 'lucide-react';
-import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import clsx from 'clsx';
 
 const NAV_ITEMS = [
@@ -50,7 +49,7 @@ export function Header() {
             : 'bg-transparent'
         )}
       >
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-center justify-between relative">
           {/* Logo */}
           <motion.a
             href="#"
@@ -75,7 +74,7 @@ export function Header() {
           </motion.a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
             {NAV_ITEMS.map((item) => (
               <motion.button
                 key={item.href}
@@ -93,11 +92,6 @@ export function Header() {
               </motion.button>
             ))}
           </nav>
-
-          {/* Desktop CTA */}
-          <div className="hidden md:block">
-            <WhatsAppButton text="WhatsApp" size="sm" />
-          </div>
 
           {/* Mobile Hamburger */}
           <motion.button
@@ -160,9 +154,6 @@ export function Header() {
                 </motion.button>
               ))}
 
-              <div className="mt-6 pt-6 border-t border-gray-200">
-                <WhatsAppButton text="Escríbenos" size="md" className="w-full" />
-              </div>
             </motion.nav>
           </motion.div>
         )}

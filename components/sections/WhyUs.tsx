@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { Users, Heart, GraduationCap, MapPin } from 'lucide-react';
 import { SectionHeading } from '@/components/ui/SectionHeading';
-import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import clsx from 'clsx';
 
 const TRUST_ITEMS = [
@@ -81,7 +80,6 @@ export function WhyUs() {
               En Alzea, cada alumno tiene nombre, no número. Grupos reducidos, trato directo
               con los padres y mucha, mucha paciencia.
             </p>
-            <WhatsAppButton text="Conócenos sin compromiso" size="md" />
           </motion.div>
 
           {/* Right - Trust Grid */}

@@ -63,8 +63,8 @@ export function Services() {
     <section id="servicios" className="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 bg-snow-white">
       <div className="max-w-6xl mx-auto">
         <SectionHeading
-          title="Lo que hacemos (y se nos da muy bien)"
-          highlight="muy bien"
+          title="En qué podemos ayudarte"
+          highlight="ayudarte"
           subtitle="Tres caminos, un mismo objetivo: que tu hijo disfrute aprendiendo"
         />
 
