@@ -39,16 +39,15 @@
   }
 }
 
-/* Smooth scroll behavior + escala global al 125% */
+/* Smooth scroll behavior + escala global al 110% */
 html {
   scroll-behavior: smooth;
-  font-size: 20px; /* Base 16px × 1.25 → todo rem escala en cascada */
+  font-size: 17.6px; /* Base 16px × 1.10 */
 }
 
-/* En móvil reducimos un poco para que no se rompa */
 @media (max-width: 640px) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
